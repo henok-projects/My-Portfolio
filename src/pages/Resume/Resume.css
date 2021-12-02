@@ -1,0 +1,126 @@
+:root{
+    --main-color: #ee6969;
+}
+/* About me section*/
+.aboutme_text{
+color: darkslategray !important;
+font-size: 200px !important;
+line-height: 20px !important;
+white-space: pre-line !important;
+}
+
+/* end of About me section*/
+
+/* TimeLine section*/
+.resume_timeline .timeline_content .timeline_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+
+}
+
+.resume_timeline .timeline_content .timeline_date{
+    color: darkslategray;
+    
+}
+.resume_timeline .timeline_content .timeline_description{
+    color: gray;
+    font-size: small;
+    margin-top: 6px;
+}
+
+/* end of TimeLine section*/
+
+
+
+/* services section*/
+.service{
+    height: 100%;
+    text-align: center;
+}
+
+.service .service_title{
+font-size: 16px !important;
+font-weight: 500 !important;
+line-height: 35px !important;
+text-align: center !important;
+}
+
+.service .service_description{
+    color: #989898 !important;
+    border-color: var(--main-color) !important;
+    margin-right: 5px !important;
+    text-align: center !important;
+    
+}
+.service.icon .MuiSvgIcon-root{
+    font-size: 46px !important;
+    margin-left: 0 !important;
+    font-weight: 300 !important;
+    color: darkslategray !important;
+}
+
+/* end of services section*/
+
+
+/*skill*/
+.skill{
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: 0px 0px 48px 0px rgba(4, 0,4, 0.08) !important;
+    min-height: 186px !important;
+    height: 100% !important;
+
+}
+
+.skill .skill_title{
+    font-size: 14px !important;
+    font-weight: 500 !important; 
+    line-height: 35px !important;
+
+}
+
+.skill .skill_description{
+    display: flex !important;
+    align-items: center !important;
+    color: #989898 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+
+}
+
+.skill .skill_description .timeline_dot{
+ 
+ border-color:var(--main-color)!important;
+ padding: 2px !important;
+ margin-right: 5px !important;
+}
+/*end skill*/
+
+/*contact section*/
+.contactInfo_item{
+ font-size: 14px !important;
+ color: #787878 !important;
+ line-height: 34px !important;
+}
+
+.contactInfo_item > span{
+    color: black !important;
+    font-weight: 500 !important;
+
+}
+
+.contactInfo_socialsContainer{
+    margin-top: 20px !important;
+
+}
+
+.contactInfo_social > a > .MuiSvgIcon-root{
+    font-size: 16px !important;
+    color: black !important;
+    margin-right: 10px;
+
+}
+
+
+
+/*end of contact section*/
