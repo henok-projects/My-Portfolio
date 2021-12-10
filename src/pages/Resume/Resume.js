@@ -8,11 +8,11 @@ import WorkIcon from "@material-ui/icons/Work";
 import "./Resume.css";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import TimelineConnector from "@material-ui/lab/TimelineConnector";
+// import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import SchoolIcon from "@material-ui/icons/School";
 import Paper from "@material-ui/core/Paper";
-import Timeline from "@material-ui/lab/Timeline";
+// import Timeline from "@material-ui/lab/Timeline";
 import CustomButton from "../../components/Button/Button";
 
 const Resume = () => {
